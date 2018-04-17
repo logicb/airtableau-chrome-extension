@@ -1,0 +1,20 @@
+ {
+	"name": "AirTableau",
+	"version": "0.0.1",
+	"description": "Capture Airtable Schema definition of a base for connecting to Tableau Web Connector",
+	"homepage_url": "https://github.com/logicb/airtableau-chrome-extension",
+	"manifest_version": 2,
+	"minimum_chrome_version": "32",
+	"icons": {
+		"128": "icon-large.png",
+		"48": "icon-medium.png",
+		"32": "icon-small.png",
+		"16": "icon-supersmall.png"
+	},
+	"permissions": [ "http://airtable.com/*", "https://airtable.com/*", "tabs", "clipboardRead", "clipboardWrite"],
+	"browser_action": {
+		"default_title": "Airtable Schema Capture",
+		"default_icon": "icon-small.png",
+		"default_popup": "popup.html"
+	}
+}
